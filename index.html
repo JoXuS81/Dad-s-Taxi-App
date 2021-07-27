@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<!-- Website/Template Language -->
+<html lang = "en">
+
+
+    <head>
+        <meta charset = "utf-8">
+
+        <!-- Description, important for SEO -->
+        <meta name = "description" content = "Dad's taxi calculator.">
+
+        <!-- Keywords -->
+        <meta name = "keywords" content = "App, Children, Fuel, Parents, Payback, Work">
+
+        <!-- Suiting for different device sizes -->
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0">
+
+        <!-- For quality view on Internet Explorer -->
+        <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+        <link rel = "icon" type = "image/png" href = "Images/Title_Bar/Calculator.png">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap.min.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap-grid.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap-grid.min.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap-reboot.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS/Bootstrap/bootstrap-reboot.min.css">
+        <link href = "https://unpkg.com/aos@2.3.1/dist/aos.css" rel = "stylesheet">
+        <link rel = "stylesheet" href = "SCSS/SCSS_Files/style.css">
+        <title>
+            Dad's Taxi Calculator
+        </title>
+
+
+        <!-- 
+
+        ******************        
+        COPYRIGHT, SOURCES
+        ****************** 
+
+
+        -->
+
+
+        <!-- 
+
+
+        *****************
+        TABLE OF CONTENTS
+        *****************
+
+
+        -->
+
+    </head>
+
+
+    <!-- BODY -->
+    <body onload = "form_area.reset();">
+
+
+        <!-- CONTENT -->
+        <div class = "align-items-center content d-flex justify-content-center">
+
+
+            <!-- APP -->
+            <div class = "app">
+                <header>
+                    <h1 class = "text-center">
+                        Dad's Taxi Calculator
+                    </h1>
+                    <div class = "d-flex justify-content-center m-0 p-0">
+                        <img class = "img-fluid" src = "Images/Header/Taxi.png" alt = "Taxi">
+                    </div>
+                </header>
+                <div class = "middle">
+                    <h2>
+                        Dad’s taxi is the cheapest, most used taxi on earth (probably). Wherever your little ones need to go, dad’s cab company is usually the first port of call. Like being constantly exhausted, ferrying the kids around is part and parcel of fatherhood, and it’s one that dads usually don’t mind. But this Father’s Day, why not pull the old switcheroo, and ask the kids to give a little back? Our Father’s Day Chore Calculator tells you exactly what the children need to do to pay you back for your hard-earned petrol. Simply enter the number of miles you rack up in Dad’s taxi per week, and we’ll give them a list of ‘repayment’ tasks.
+                    </h2>
+                    <h2 class = "dads">
+                        Happy Father’s Day, dads! 
+                    </h2>
+                    <div class = "calculation">
+                        <h1 class = "enter">
+                            Enter number of miles - per week
+                        </h1>
+                        <form id = "form_area">
+                            <input class = "enter_number" id = "enterNumber" min = "0" placeholder = "Enter number of miles..." type = "number">
+                        </form>
+                    </div>
+                </div>
+                <footer>
+                    <h1 class = "heading">
+                        Repayment Tasks
+                    </h1>
+                    <div class = "mb-0 ml-0 mr-0 p-0 row tasks">
+                        <div class = "col-xl-6 first_task m-0 pb-0 pl-0 pr-0 task">
+                            <h2>
+                                Babysitting
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 m-0 p-0 value">
+                            <h2 id = "babysittingValue">
+                                0x
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 task">
+                            <h2>
+                                Cleaning Bathroom
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 value">
+                            <h2 id = "bathroomValue">
+                                0x
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 task">
+                            <h2>
+                                Cleaning Car
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 value">
+                            <h2 id = "carValue">
+                                0x
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 task">
+                            <h2>
+                                Cleaning Dishes
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 value">
+                            <h2 id = "dishesValue">
+                                0x
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 task">
+                            <h2>
+                                Dusting
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 value">
+                            <h2 id = "dustingValue">
+                                0x
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 task">
+                            <h2>
+                                Hanging Washing Out
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 value">
+                            <h2 id = "washingValue">
+                                0x
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 task">
+                            <h2>
+                                Helping with Cooking
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 value">
+                            <h2 id = "cookingValue">
+                                0x
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 task">
+                            <h2>
+                                Putting Bins Out
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 value">
+                            <h2 id = "binsValue">
+                                0x
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 task">
+                            <h2>
+                                Tidying Bedroom
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 value">
+                            <h2 id = "bedroomValue">
+                                0x
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 task">
+                            <h2>
+                                Vacuuming
+                            </h2>
+                        </div>
+                        <div class = "col-xl-6 mb-0 ml-0 mr-0 p-0 value">
+                            <h2 id = "vacuumingValue">
+                                0x
+                            </h2>
+                        </div>
+                    </div>
+                    <div class = "button d-flex justify-content-center">
+                        <div class = "align-items-center button_area d-flex justify-content-center" id = "clickButton" onclick = "calculateArea()">
+                            <h1>
+                                Calculate
+                            </h1>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>  
+
+
+        <!-- JavaScript Connections -->
+        <script src = 'JS/jquery-3.6.0.min.js'>
+        </script>
+        <script src = 'JS/popper.min.js'>
+        </script>
+        <script src = 'JS/Bootstrap/bootstrap.js'>
+        </script>
+        <script src = 'JS/Bootstrap/bootstrap.min.js'>
+        </script>
+        <script src = 'JS/Bootstrap/bootstrap.bundle.js'>
+        </script>
+        <script src = 'JS/Bootstrap/bootstrap.bundle.min.js'>
+        </script>
+        <script src = 'JS/pageTop.js'>
+        </script>
+        <script src = 'JS/app_funct.js'>
+        </script>
+
+
+    </body>
+
+
+</html>

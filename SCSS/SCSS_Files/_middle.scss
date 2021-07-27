@@ -1,0 +1,344 @@
+.middle {
+    background:$white;
+    .calculation {
+        margin-left:191px;
+        margin-right:191px;
+        margin-top:142px;
+        .enter {
+            color:$black;
+            font-size:50px;
+            padding:0;
+        }
+        form {
+            width:100%;
+            .enter_number {
+                background:$input;
+                border-radius:10px;
+                color:$white;
+                font-size:40px;
+                height:104px;
+                margin-top:68px;
+                padding-left:15px;
+                width:100%;
+            }
+            /* Firefox */
+            input[type=number] {
+                -moz-appearance:textfield;
+            }
+            /* Chrome, Safari, Edge, Opera */
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance:none;
+                margin:0;
+            }
+            ::-moz-placeholder {
+                color:$white;
+                font-family:rajdhani;
+                font-size:30px;
+                margin:0;
+                opacity:0.75;
+                padding:0;
+                padding-left:15px;
+            }
+        }
+    }
+    .dads {
+        margin-left:160px;
+        margin-top:25px;
+    }
+    h2 {
+        margin-left:160px;
+        margin-right:160px;
+    }
+}
+
+
+// Work with Different Screen Sizes
+@media (max-width:341px) {
+    .middle {
+        .calculation {
+            margin-left:10px;
+            margin-right:10px;
+            .enter {
+                @include h1_341;
+                text-align:center;
+            }
+        }
+        .dads {
+            margin-left:0;
+            text-align:center;
+            width:100%;
+        }
+        h2 {
+            margin-left:10px;
+            margin-right:10px;
+            text-align:center;
+        }
+    }
+}
+
+
+@media (min-width:342px) and (max-width:455px) {
+    .middle {
+        .calculation {
+            margin-left:10px;
+            margin-right:10px;
+            .enter {
+                @include h1_455;
+                text-align:center;
+            }
+        }
+        .dads {
+            margin-left:0;
+            text-align:center;
+            width:100%;
+        }
+        h2 {
+            margin-left:10px;
+            margin-right:10px;
+            text-align:center;
+        }
+    }
+}
+
+
+@media (min-width:456px) and (max-width:607px) {
+    .middle {
+        .calculation {
+            margin-left:10px;
+            margin-right:10px;
+            .enter {
+                @include h1_607;
+                text-align:center;
+            }
+        }
+        .dads {
+            margin-left:0;
+            text-align:center;
+            width:100%;
+        }
+        h2 {
+            margin-left:10px;
+            margin-right:10px;
+            text-align:center;
+        }
+    }
+}
+
+
+@media (min-width:608px) and (max-width:810px) {
+    .middle {
+        .calculation {
+            margin-left:90px;
+            margin-right:90px;
+            .enter {
+                @include h1_810;
+                text-align:center;
+            }
+        }
+        .dads {
+            margin-left:0;
+            text-align:center;
+            width:100%;
+        }
+        h2 {
+            margin-left:80px;
+            margin-right:80px;
+            text-align:center;
+        }
+    }
+}
+
+
+@media (min-width:811px) and (max-width:1080px) {
+    .middle {
+        .calculation {
+            margin-left:90px;
+            margin-right:90px;
+            .enter {
+                @include h1_1080;
+                text-align:center;
+            }
+        }
+        .dads {
+            margin-left:0;
+            text-align:center;
+            width:100%;
+        }
+        h2 {
+            margin-left:80px;
+            margin-right:80px;
+            text-align:center;
+        }
+    }
+}
+
+
+@media (min-width:1081px) and (max-width:1199px) {
+    .middle {
+        .calculation {
+            .enter {
+                @include h1_1199;
+                text-align:center;
+            }
+        }
+        .dads {
+            margin-left:0;
+            text-align:center;
+            width:100%;
+        }
+        h2 {
+            margin-left:80px;
+            margin-right:80px;
+            text-align:center;
+        }
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1440px) {
+}
+
+
+@media (min-width:1441px) and (max-width:1919px) {
+}
+
+
+@media (min-width:1921px) and (max-width:2400px) {
+    .middle {
+        .calculation {
+            margin-left:239px;
+            margin-right:239px;
+            margin-top:178px;
+            .enter {
+                font-size:62px;
+            }
+            form {
+                .enter_number {
+                    border-radius:12.5px;
+                    font-size:50px;
+                    height:130px;
+                    margin-top:85px;
+                    padding-left:18px;
+                }
+                ::-moz-placeholder {
+                    font-size:37px;
+                    padding-left:18px;
+                }
+            }
+        }
+        .dads {
+            margin-left:200px;
+            margin-top:31px;
+        }
+        h2 {
+            margin-left:200px;
+            margin-right:200px;
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px) {
+    .middle {
+        .calculation {
+            margin-left:299px;
+            margin-right:299px;
+            margin-top:223px;
+            .enter {
+                font-size:77px;
+            }
+            form {
+                .enter_number {
+                    border-radius:15.6px;
+                    font-size:62px;
+                    height:162px;
+                    margin-top:106px;
+                    padding-left:22px;
+                }
+                ::-moz-placeholder {
+                    font-size:46px;
+                    padding-left:22px;
+                }
+            }
+        }
+        .dads {
+            margin-left:250px;
+            margin-top:38px;
+        }
+        h2 {
+            margin-left:250px;
+            margin-right:250px;
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px) {
+    .middle {
+        .calculation {
+            margin-left:374px;
+            margin-right:374px;
+            margin-top:279px;
+            .enter {
+                font-size:96px;
+            }
+            form {
+                .enter_number {
+                    border-radius:19.5px;
+                    font-size:77px;
+                    height:202px;
+                    margin-top:132px;
+                    padding-left:27px;
+                }
+                ::-moz-placeholder {
+                    font-size:57px;
+                    padding-left:27px;
+                }
+            }
+        }
+        .dads {
+            margin-left:312px;
+            margin-top:47px;
+        }
+        h2 {
+            margin-left:312px;
+            margin-right:312px;
+        }
+    }
+}
+
+
+@media (min-width:3751px) {
+    .middle {
+        .calculation {
+            margin-left:468px;
+            margin-right:468px;
+            margin-top:349px;
+            .enter {
+                font-size:120px;
+            }
+            form {
+                .enter_number {
+                    border-radius:24.3px;
+                    font-size:96px;
+                    height:252px;
+                    margin-top:165px;
+                    padding-left:33px;
+                }
+                ::-moz-placeholder {
+                    font-size:71px;
+                    padding-left:33px;
+                }
+            }
+        }
+        .dads {
+            margin-left:390px;
+            margin-top:58px;
+        }
+        h2 {
+            margin-left:390px;
+            margin-right:390px;
+        }
+    }
+}

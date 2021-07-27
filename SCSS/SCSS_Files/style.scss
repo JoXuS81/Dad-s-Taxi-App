@@ -1,0 +1,304 @@
+/* 
+
+TABLE OF CONTENTS
+
+
+*/
+
+
+//Fonts
+// Rajdhani
+@font-face {
+    @font-face {
+        font-family:rajdhani;
+        src:url("../Fonts/Rajdhani/Rajdhani-Regular.ttf");
+    }
+}
+
+
+// Mixins
+@mixin h1 {
+    color:$white;
+    font-family:rajdhani;
+    font-size:64px;
+    font-weight:bold;
+    padding-top:68px;
+    // Add additional element
+}
+@mixin h2 {
+    color:$black;
+    font-family:rajdhani;
+    font-size:36px;
+    font-weight:bold;
+    padding-top:37px;
+}
+
+
+@mixin h1_small {
+}
+@mixin h2_small {
+}
+
+
+@mixin h1_341 {
+    font-size:30px;
+}
+@mixin h2_341 {
+    font-size:25px;
+}
+
+
+@mixin h1_455 {
+    font-size:30px;
+}
+@mixin h2_455 {
+    font-size:25px;
+}
+
+
+@mixin h1_607 {
+    font-size:30px;
+}
+@mixin h2_607 {
+    font-size:25px;
+}
+
+
+@mixin h1_810 {
+    font-size:30px;
+}
+@mixin h2_810 {
+}
+
+
+@mixin h1_1080 {
+    font-size:30px;
+}
+@mixin h2_1080 {
+}
+
+
+@mixin h1_1199 {
+    font-size:40px;
+}
+@mixin h2_1199 {
+}
+
+
+@mixin h1_2400 {
+    font-size:80px;
+}
+@mixin h1_3000 {
+    font-size:100px;
+}
+@mixin h1_3750 {
+    font-size:125px;
+}
+@mixin h1_4690 {
+    font-size:156px;
+}
+
+
+@mixin h2_2400 {
+    font-size:45px;
+}
+@mixin h2_3000 {
+    font-size:56px;
+}
+@mixin h2_3750 {
+    font-size:70px;
+}
+@mixin h2_4690 {
+    font-size:87px;
+}
+
+
+// Variables
+$black:#000000;
+$button:#202323;
+$dark:#191146;
+$input:#596062;
+$pink:#e7cffd;
+$white:#ffffff;
+
+
+/* Body */
+body {
+    background:$pink;
+    overflow-x:hidden;
+    .content {
+        .app {
+            @import "footer";
+            @import "header";
+            @import "middle";
+            margin:50px;
+            padding:0;
+        }
+    }
+    h1 {
+        @include h1;
+    }
+    h2 {
+        @include h2;
+    }
+}
+
+// Work with Different Screen Sizes
+@media (max-width:341px) {
+    body {
+        .content {
+            .app {
+                margin:0;
+            }
+            h1 {
+                @include h1_341;
+            }
+            h2 {
+                @include h2_341;
+            }
+        }
+    }
+}
+
+
+@media (min-width:342px) and (max-width:455px) {
+    body {
+        .content {
+            .app {
+                margin:0;
+            }
+            h1 {
+                @include h1_455;
+            }
+            h2 {
+                @include h2_455;
+            }
+        }
+    }
+}
+
+
+@media (min-width:456px) and (max-width:607px) {
+    body {
+        .content {
+            .app {
+                margin:0;
+            }
+            h1 {
+                @include h1_607;
+            }
+            h2 {
+                @include h2_607;
+            }
+        }
+    }
+}
+
+
+@media (min-width:608px) and (max-width:810px) {
+    body {
+        .content {
+            .app {
+                margin:0;
+            }
+        }
+    }
+}
+
+
+@media (min-width:811px) and (max-width:1080px) {
+    body {
+        .content {
+            .app {
+                margin:0;
+            }
+        }
+    }
+}
+
+
+@media (min-width:1081px) and (max-width:1199px) {
+    body {
+        .content {
+            .app {
+                margin:0;
+            }
+        }
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1440px) {
+}
+
+
+@media (min-width:1441px) and (max-width:1919px) {
+}
+
+
+@media (min-width:1921px) and (max-width:2400px) {
+    body {
+        .content {
+            .app {
+                margin:0;
+            }
+            h1 {
+                @include h1_2400;
+            }
+            h2 {
+                @include h2_2400;
+            }
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px) {
+    body {
+        .content {
+            .app {
+                margin:0;
+            }
+            h1 {
+                @include h1_3000;
+            }
+            h2 {
+                @include h2_3000;
+            }
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px) {
+    body {
+        .content {
+            .app {
+                margin:0;
+            }
+            h1 {
+                @include h1_3750;
+            }
+            h2 {
+                @include h2_3750;
+            }
+        }
+    }
+}
+
+
+@media (min-width:3751px) {
+    body {
+        .content {
+            .app {
+                margin:0;
+            }
+            h1 {
+                @include h1_4690;
+            }
+            h2 {
+                @include h2_4690;
+            }
+        }
+    }
+}

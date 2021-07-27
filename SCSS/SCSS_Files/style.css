@@ -1,0 +1,850 @@
+/* 
+
+TABLE OF CONTENTS
+
+
+*/
+@font-face {
+  @font-face {
+    font-family: rajdhani;
+    src: url("../Fonts/Rajdhani/Rajdhani-Regular.ttf");
+  }
+}
+
+/* Body */
+body {
+  background: #e7cffd;
+  overflow-x: hidden;
+}
+
+body .content .app {
+  margin: 50px;
+  padding: 0;
+}
+
+body .content .app footer {
+  background: #ffffff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+body .content .app footer .button {
+  margin-top: 196px;
+}
+
+body .content .app footer .button .button_area {
+  background: #202323;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 174px;
+  margin-bottom: 90px;
+  width: 750px;
+}
+
+body .content .app footer .button .button_area h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body .content .app footer .heading {
+  color: #000000;
+  font-size: 48px;
+  margin-left: 191px;
+  padding-top: 132px;
+}
+
+body .content .app footer .tasks {
+  margin-top: 45px;
+}
+
+body .content .app footer .tasks .task {
+  margin-top: 22px;
+}
+
+body .content .app footer .tasks .task h2 {
+  margin: 0;
+  margin-left: 191px;
+  padding: 0;
+  padding-top: 0;
+}
+
+body .content .app footer .tasks .value {
+  margin-top: 22px;
+}
+
+body .content .app footer .tasks .value h2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 0;
+}
+
+@media (max-width: 341px) {
+  body .content .app footer .button {
+    margin-top: 90px;
+  }
+  body .content .app footer .button .button_area {
+    height: 75px;
+    width: 300px;
+  }
+  body .content .app footer .heading {
+    font-size: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .first_task {
+    padding-top: 35px;
+  }
+  body .content .app footer .tasks .task h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .value {
+    margin-top: 0;
+  }
+  body .content .app footer .tasks .value h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 342px) and (max-width: 455px) {
+  body .content .app footer .button {
+    margin-top: 90px;
+  }
+  body .content .app footer .button .button_area {
+    height: 75px;
+    width: 300px;
+  }
+  body .content .app footer .heading {
+    font-size: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .first_task {
+    padding-top: 35px;
+  }
+  body .content .app footer .tasks .task h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .value {
+    margin-top: 0;
+  }
+  body .content .app footer .tasks .value h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 456px) and (max-width: 607px) {
+  body .content .app footer .button {
+    margin-top: 90px;
+  }
+  body .content .app footer .button .button_area {
+    height: 75px;
+    width: 300px;
+  }
+  body .content .app footer .heading {
+    font-size: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .first_task {
+    padding-top: 35px;
+  }
+  body .content .app footer .tasks .task h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .value {
+    margin-top: 0;
+  }
+  body .content .app footer .tasks .value h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 608px) and (max-width: 810px) {
+  body .content .app footer .button .button_area {
+    height: 125px;
+    width: 500px;
+  }
+  body .content .app footer .heading {
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .first_task {
+    padding-top: 35px;
+  }
+  body .content .app footer .tasks .task h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .value {
+    margin-top: 0;
+  }
+  body .content .app footer .tasks .value h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 811px) and (max-width: 1080px) {
+  body .content .app footer .button .button_area {
+    height: 125px;
+    width: 500px;
+  }
+  body .content .app footer .heading {
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .first_task {
+    padding-top: 35px;
+  }
+  body .content .app footer .tasks .task h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .value {
+    margin-top: 0;
+  }
+  body .content .app footer .tasks .value h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1081px) and (max-width: 1199px) {
+  body .content .app footer .heading {
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .first_task {
+    padding-top: 35px;
+  }
+  body .content .app footer .tasks .task h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+  body .content .app footer .tasks .value {
+    margin-top: 0;
+  }
+  body .content .app footer .tasks .value h2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2400px) {
+  body .content .app footer {
+    border-bottom-left-radius: 12.5px;
+    border-bottom-right-radius: 12.5px;
+  }
+  body .content .app footer .button {
+    margin-top: 245px;
+  }
+  body .content .app footer .button .button_area {
+    border-radius: 12.5px;
+    height: 218px;
+    margin-bottom: 112px;
+    width: 938px;
+  }
+  body .content .app footer .heading {
+    font-size: 60px;
+    margin-left: 239px;
+    padding-top: 165px;
+  }
+  body .content .app footer .tasks {
+    margin-top: 56px;
+  }
+  body .content .app footer .tasks .task {
+    margin-top: 27px;
+  }
+  body .content .app footer .tasks .task h2 {
+    margin-left: 239px;
+  }
+  body .content .app footer .tasks .value {
+    margin-top: 27px;
+  }
+}
+
+@media (min-width: 2401px) and (max-width: 3000px) {
+  body .content .app footer {
+    border-bottom-left-radius: 15.6px;
+    border-bottom-right-radius: 15.6px;
+  }
+  body .content .app footer .button {
+    margin-top: 306px;
+  }
+  body .content .app footer .button .button_area {
+    border-radius: 15.6px;
+    height: 218px;
+    margin-bottom: 140px;
+    width: 1173px;
+  }
+  body .content .app footer .heading {
+    font-size: 75px;
+    margin-left: 299px;
+    padding-top: 206px;
+  }
+  body .content .app footer .tasks {
+    margin-top: 70px;
+  }
+  body .content .app footer .tasks .task {
+    margin-top: 33px;
+  }
+  body .content .app footer .tasks .task h2 {
+    margin-left: 299px;
+  }
+  body .content .app footer .tasks .value {
+    margin-top: 33px;
+  }
+}
+
+@media (min-width: 3001px) and (max-width: 3750px) {
+  body .content .app footer {
+    border-bottom-left-radius: 19.5px;
+    border-bottom-right-radius: 19.5px;
+  }
+  body .content .app footer .button {
+    margin-top: 383px;
+  }
+  body .content .app footer .button .button_area {
+    border-radius: 19.5px;
+    height: 273px;
+    margin-bottom: 175px;
+    width: 1466px;
+  }
+  body .content .app footer .heading {
+    font-size: 93px;
+    margin-left: 374px;
+    padding-top: 257px;
+  }
+  body .content .app footer .tasks {
+    margin-top: 87px;
+  }
+  body .content .app footer .tasks .task {
+    margin-top: 41px;
+  }
+  body .content .app footer .tasks .task h2 {
+    margin-left: 374px;
+  }
+  body .content .app footer .tasks .value {
+    margin-top: 41px;
+  }
+}
+
+@media (min-width: 3751px) {
+  body .content .app footer {
+    border-bottom-left-radius: 24.3px;
+    border-bottom-right-radius: 24.3px;
+  }
+  body .content .app footer .button {
+    margin-top: 479px;
+  }
+  body .content .app footer .button .button_area {
+    border-radius: 24.3px;
+    height: 341px;
+    margin-bottom: 219px;
+    width: 1833px;
+  }
+  body .content .app footer .heading {
+    font-size: 116px;
+    margin-left: 468px;
+    padding-top: 321px;
+  }
+  body .content .app footer .tasks {
+    margin-top: 108px;
+  }
+  body .content .app footer .tasks .task {
+    margin-top: 51px;
+  }
+  body .content .app footer .tasks .task h2 {
+    margin-left: 468px;
+  }
+  body .content .app footer .tasks .value {
+    margin-top: 51px;
+  }
+}
+
+body .content .app header {
+  background: #191146;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+body .content .app header img {
+  margin-bottom: 100px;
+  margin-top: 67px;
+}
+
+@media (min-width: 1921px) and (max-width: 2400px) {
+  body .content .app header {
+    border-top-right-radius: 12.5px;
+    border-top-left-radius: 12.5px;
+  }
+  body .content .app header img {
+    height: auto;
+    margin-bottom: 125px;
+    margin-top: 83px;
+    width: 719px;
+  }
+}
+
+@media (min-width: 2401px) and (max-width: 3000px) {
+  body .content .app header {
+    border-top-right-radius: 15.6px;
+    border-top-left-radius: 15.6px;
+  }
+  body .content .app header img {
+    height: auto;
+    margin-bottom: 156px;
+    margin-top: 103px;
+    width: 899px;
+  }
+}
+
+@media (min-width: 3001px) and (max-width: 3750px) {
+  body .content .app header {
+    border-top-right-radius: 19.5px;
+    border-top-left-radius: 19.5px;
+  }
+  body .content .app header img {
+    height: auto;
+    margin-bottom: 195px;
+    margin-top: 128px;
+    width: 1124px;
+  }
+}
+
+@media (min-width: 3751px) {
+  body .content .app header {
+    border-top-right-radius: 24.3px;
+    border-top-left-radius: 24.3px;
+  }
+  body .content .app header img {
+    height: auto;
+    margin-bottom: 243px;
+    margin-top: 160px;
+    width: 1405px;
+  }
+}
+
+body .content .app .middle {
+  background: #ffffff;
+}
+
+body .content .app .middle .calculation {
+  margin-left: 191px;
+  margin-right: 191px;
+  margin-top: 142px;
+}
+
+body .content .app .middle .calculation .enter {
+  color: #000000;
+  font-size: 50px;
+  padding: 0;
+}
+
+body .content .app .middle .calculation form {
+  width: 100%;
+  /* Firefox */
+  /* Chrome, Safari, Edge, Opera */
+}
+
+body .content .app .middle .calculation form .enter_number {
+  background: #596062;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 40px;
+  height: 104px;
+  margin-top: 68px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+body .content .app .middle .calculation form input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body .content .app .middle .calculation form input::-webkit-outer-spin-button,
+body .content .app .middle .calculation form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body .content .app .middle .calculation form ::-moz-placeholder {
+  color: #ffffff;
+  font-family: rajdhani;
+  font-size: 30px;
+  margin: 0;
+  opacity: 0.75;
+  padding: 0;
+  padding-left: 15px;
+}
+
+body .content .app .middle .dads {
+  margin-left: 160px;
+  margin-top: 25px;
+}
+
+body .content .app .middle h2 {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+@media (max-width: 341px) {
+  body .content .app .middle .calculation {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  body .content .app .middle .calculation .enter {
+    font-size: 30px;
+    text-align: center;
+  }
+  body .content .app .middle .dads {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  body .content .app .middle h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 342px) and (max-width: 455px) {
+  body .content .app .middle .calculation {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  body .content .app .middle .calculation .enter {
+    font-size: 30px;
+    text-align: center;
+  }
+  body .content .app .middle .dads {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  body .content .app .middle h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 456px) and (max-width: 607px) {
+  body .content .app .middle .calculation {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  body .content .app .middle .calculation .enter {
+    font-size: 30px;
+    text-align: center;
+  }
+  body .content .app .middle .dads {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  body .content .app .middle h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 608px) and (max-width: 810px) {
+  body .content .app .middle .calculation {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  body .content .app .middle .calculation .enter {
+    font-size: 30px;
+    text-align: center;
+  }
+  body .content .app .middle .dads {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  body .content .app .middle h2 {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 811px) and (max-width: 1080px) {
+  body .content .app .middle .calculation {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  body .content .app .middle .calculation .enter {
+    font-size: 30px;
+    text-align: center;
+  }
+  body .content .app .middle .dads {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  body .content .app .middle h2 {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1081px) and (max-width: 1199px) {
+  body .content .app .middle .calculation .enter {
+    font-size: 40px;
+    text-align: center;
+  }
+  body .content .app .middle .dads {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  body .content .app .middle h2 {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2400px) {
+  body .content .app .middle .calculation {
+    margin-left: 239px;
+    margin-right: 239px;
+    margin-top: 178px;
+  }
+  body .content .app .middle .calculation .enter {
+    font-size: 62px;
+  }
+  body .content .app .middle .calculation form .enter_number {
+    border-radius: 12.5px;
+    font-size: 50px;
+    height: 130px;
+    margin-top: 85px;
+    padding-left: 18px;
+  }
+  body .content .app .middle .calculation form ::-moz-placeholder {
+    font-size: 37px;
+    padding-left: 18px;
+  }
+  body .content .app .middle .dads {
+    margin-left: 200px;
+    margin-top: 31px;
+  }
+  body .content .app .middle h2 {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (min-width: 2401px) and (max-width: 3000px) {
+  body .content .app .middle .calculation {
+    margin-left: 299px;
+    margin-right: 299px;
+    margin-top: 223px;
+  }
+  body .content .app .middle .calculation .enter {
+    font-size: 77px;
+  }
+  body .content .app .middle .calculation form .enter_number {
+    border-radius: 15.6px;
+    font-size: 62px;
+    height: 162px;
+    margin-top: 106px;
+    padding-left: 22px;
+  }
+  body .content .app .middle .calculation form ::-moz-placeholder {
+    font-size: 46px;
+    padding-left: 22px;
+  }
+  body .content .app .middle .dads {
+    margin-left: 250px;
+    margin-top: 38px;
+  }
+  body .content .app .middle h2 {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+@media (min-width: 3001px) and (max-width: 3750px) {
+  body .content .app .middle .calculation {
+    margin-left: 374px;
+    margin-right: 374px;
+    margin-top: 279px;
+  }
+  body .content .app .middle .calculation .enter {
+    font-size: 96px;
+  }
+  body .content .app .middle .calculation form .enter_number {
+    border-radius: 19.5px;
+    font-size: 77px;
+    height: 202px;
+    margin-top: 132px;
+    padding-left: 27px;
+  }
+  body .content .app .middle .calculation form ::-moz-placeholder {
+    font-size: 57px;
+    padding-left: 27px;
+  }
+  body .content .app .middle .dads {
+    margin-left: 312px;
+    margin-top: 47px;
+  }
+  body .content .app .middle h2 {
+    margin-left: 312px;
+    margin-right: 312px;
+  }
+}
+
+@media (min-width: 3751px) {
+  body .content .app .middle .calculation {
+    margin-left: 468px;
+    margin-right: 468px;
+    margin-top: 349px;
+  }
+  body .content .app .middle .calculation .enter {
+    font-size: 120px;
+  }
+  body .content .app .middle .calculation form .enter_number {
+    border-radius: 24.3px;
+    font-size: 96px;
+    height: 252px;
+    margin-top: 165px;
+    padding-left: 33px;
+  }
+  body .content .app .middle .calculation form ::-moz-placeholder {
+    font-size: 71px;
+    padding-left: 33px;
+  }
+  body .content .app .middle .dads {
+    margin-left: 390px;
+    margin-top: 58px;
+  }
+  body .content .app .middle h2 {
+    margin-left: 390px;
+    margin-right: 390px;
+  }
+}
+
+body h1 {
+  color: #ffffff;
+  font-family: rajdhani;
+  font-size: 64px;
+  font-weight: bold;
+  padding-top: 68px;
+}
+
+body h2 {
+  color: #000000;
+  font-family: rajdhani;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 37px;
+}
+
+@media (max-width: 341px) {
+  body .content .app {
+    margin: 0;
+  }
+  body .content h1 {
+    font-size: 30px;
+  }
+  body .content h2 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 342px) and (max-width: 455px) {
+  body .content .app {
+    margin: 0;
+  }
+  body .content h1 {
+    font-size: 30px;
+  }
+  body .content h2 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 456px) and (max-width: 607px) {
+  body .content .app {
+    margin: 0;
+  }
+  body .content h1 {
+    font-size: 30px;
+  }
+  body .content h2 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 608px) and (max-width: 810px) {
+  body .content .app {
+    margin: 0;
+  }
+}
+
+@media (min-width: 811px) and (max-width: 1080px) {
+  body .content .app {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1081px) and (max-width: 1199px) {
+  body .content .app {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2400px) {
+  body .content .app {
+    margin: 0;
+  }
+  body .content h1 {
+    font-size: 80px;
+  }
+  body .content h2 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 2401px) and (max-width: 3000px) {
+  body .content .app {
+    margin: 0;
+  }
+  body .content h1 {
+    font-size: 100px;
+  }
+  body .content h2 {
+    font-size: 56px;
+  }
+}
+
+@media (min-width: 3001px) and (max-width: 3750px) {
+  body .content .app {
+    margin: 0;
+  }
+  body .content h1 {
+    font-size: 125px;
+  }
+  body .content h2 {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 3751px) {
+  body .content .app {
+    margin: 0;
+  }
+  body .content h1 {
+    font-size: 156px;
+  }
+  body .content h2 {
+    font-size: 87px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

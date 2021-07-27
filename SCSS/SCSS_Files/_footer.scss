@@ -1,0 +1,389 @@
+footer {
+    background:$white;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    .button {
+        margin-top:196px;
+        .button_area {
+            background:$button;
+            border-radius:10px;
+            cursor:pointer;
+            height:174px;
+            margin-bottom:90px;
+            width:750px;
+            h1 {
+                margin:0;
+                padding:0;
+            }
+        }
+    }
+    .heading {
+        color:$black;
+        font-size:48px;
+        margin-left:191px;
+        padding-top:132px;
+    }
+    .tasks {
+        margin-top:45px;
+        .task {
+            margin-top:22px;
+            h2 {
+                margin:0;
+                margin-left:191px;
+                padding:0;
+                padding-top:0;
+            }
+        }
+        .value {
+            margin-top:22px;
+            h2 {
+                margin:0;
+                padding:0;
+                padding-top:0;
+            }
+        }
+    }
+}
+
+
+// Work with Different Screen Sizes
+@media (max-width:341px) {
+    footer {
+        .button {
+            margin-top:90px;
+            .button_area {
+                height:75px;
+                width:300px;
+            }
+        }
+        .heading {
+            font-size:30px;
+            margin-left:0;
+            text-align:center;
+        }
+        .tasks {
+            .first_task {
+                padding-top:35px;
+            }
+            .task {
+                h2 {
+                    margin-left:0;
+                    text-align:center;
+                }
+            }
+            .value {
+                margin-top:0;
+                h2 {
+                    text-align:center;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:342px) and (max-width:455px) {
+    footer {
+        .button {
+            margin-top:90px;
+            .button_area {
+                height:75px;
+                width:300px;
+            }
+        }
+        .heading {
+            font-size:30px;
+            margin-left:0;
+            text-align:center;
+        }
+        .tasks {
+            .first_task {
+                padding-top:35px;
+            }
+            .task {
+                h2 {
+                    margin-left:0;
+                    text-align:center;
+                }
+            }
+            .value {
+                margin-top:0;
+                h2 {
+                    text-align:center;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:456px) and (max-width:607px) {
+    footer {
+        .button {
+            margin-top:90px;
+            .button_area {
+                height:75px;
+                width:300px;
+            }
+        }
+        .heading {
+            font-size:30px;
+            margin-left:0;
+            text-align:center;
+        }
+        .tasks {
+            .first_task {
+                padding-top:35px;
+            }
+            .task {
+                h2 {
+                    margin-left:0;
+                    text-align:center;
+                }
+            }
+            .value {
+                margin-top:0;
+                h2 {
+                    text-align:center;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:608px) and (max-width:810px) {
+    footer {
+        .button {
+            .button_area {
+                height:125px;
+                width:500px;
+            }
+        }
+        .heading {
+            margin-left:0;
+            text-align:center;
+        }
+        .tasks {
+            .first_task {
+                padding-top:35px;
+            }
+            .task {
+                h2 {
+                    margin-left:0;
+                    text-align:center;
+                }
+            }
+            .value {
+                margin-top:0;
+                h2 {
+                    text-align:center;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:811px) and (max-width:1080px) {
+    footer {
+        .button {
+            .button_area {
+                height:125px;
+                width:500px;
+            }
+        }
+        .heading {
+            margin-left:0;
+            text-align:center;
+        }
+        .tasks {
+            .first_task {
+                padding-top:35px;
+            }
+            .task {
+                h2 {
+                    margin-left:0;
+                    text-align:center;
+                }
+            }
+            .value {
+                margin-top:0;
+                h2 {
+                    text-align:center;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1081px) and (max-width:1199px) {
+    footer {
+        .heading {
+            margin-left:0;
+            text-align:center;
+        }
+        .tasks {
+            .first_task {
+                padding-top:35px;
+            }
+            .task {
+                h2 {
+                    margin-left:0;
+                    text-align:center;
+                }
+            }
+            .value {
+                margin-top:0;
+                h2 {
+                    text-align:center;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1440px) {
+}
+
+
+@media (min-width:1441px) and (max-width:1919px) {
+}
+
+
+@media (min-width:1921px) and (max-width:2400px) {
+    footer {
+        border-bottom-left-radius:12.5px;
+        border-bottom-right-radius:12.5px;
+        .button {
+            margin-top:245px;
+            .button_area {
+                border-radius:12.5px;
+                height:218px;
+                margin-bottom:112px;
+                width:938px;
+            }
+        }
+        .heading {
+            font-size:60px;
+            margin-left:239px;
+            padding-top:165px;
+        }
+        .tasks {
+            margin-top:56px;
+            .task {
+                margin-top:27px;
+                h2 {
+                    margin-left:239px;
+                }
+            }
+            .value {
+                margin-top:27px;
+            }
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px) {
+    footer {
+        border-bottom-left-radius:15.6px;
+        border-bottom-right-radius:15.6px;
+        .button {
+            margin-top:306px;
+            .button_area {
+                border-radius:15.6px;
+                height:218px;
+                margin-bottom:140px;
+                width:1173px;
+            }
+        }
+        .heading {
+            font-size:75px;
+            margin-left:299px;
+            padding-top:206px;
+        }
+        .tasks {
+            margin-top:70px;
+            .task {
+                margin-top:33px;
+                h2 {
+                    margin-left:299px;
+                }
+            }
+            .value {
+                margin-top:33px;
+            }
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px) {
+    footer {
+        border-bottom-left-radius:19.5px;
+        border-bottom-right-radius:19.5px;
+        .button {
+            margin-top:383px;
+            .button_area {
+                border-radius:19.5px;
+                height:273px;
+                margin-bottom:175px;
+                width:1466px;
+            }
+        }
+        .heading {
+            font-size:93px;
+            margin-left:374px;
+            padding-top:257px;
+        }
+        .tasks {
+            margin-top:87px;
+            .task {
+                margin-top:41px;
+                h2 {
+                    margin-left:374px;
+                }
+            }
+            .value {
+                margin-top:41px;
+            }
+        }
+    }
+}
+
+
+@media (min-width:3751px) {
+    footer {
+        border-bottom-left-radius:24.3px;
+        border-bottom-right-radius:24.3px;
+        .button {
+            margin-top:479px;
+            .button_area {
+                border-radius:24.3px;
+                height:341px;
+                margin-bottom:219px;
+                width:1833px;
+            }
+        }
+        .heading {
+            font-size:116px;
+            margin-left:468px;
+            padding-top:321px;
+        }
+        .tasks {
+            margin-top:108px;
+            .task {
+                margin-top:51px;
+                h2 {
+                    margin-left:468px;
+                }
+            }
+            .value {
+                margin-top:51px;
+            }
+        }
+    }
+}

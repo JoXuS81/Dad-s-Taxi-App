@@ -1,0 +1,98 @@
+header {
+    background:$dark;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    img {
+        margin-bottom:100px;
+        margin-top:67px;
+    }
+}
+
+
+// Work with Different Screen Sizes
+@media (max-width:341px) {
+}
+
+
+@media (min-width:342px) and (max-width:455px) {
+}
+
+
+@media (min-width:456px) and (max-width:607px) {
+}
+
+
+@media (min-width:608px) and (max-width:810px) {
+}
+
+
+@media (min-width:811px) and (max-width:1080px) {
+}
+
+
+@media (min-width:1081px) and (max-width:1199px) {
+}
+
+
+@media (min-width:1200px) and (max-width:1440px) {
+}
+
+
+@media (min-width:1441px) and (max-width:1919px) {
+}
+
+
+@media (min-width:1921px) and (max-width:2400px) {
+    header {
+        border-top-right-radius:12.5px;
+        border-top-left-radius:12.5px;
+        img {
+            height:auto;
+            margin-bottom:125px;
+            margin-top:83px;
+            width:719px;
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px) {
+    header {
+        border-top-right-radius:15.6px;
+        border-top-left-radius:15.6px;
+        img {
+            height:auto;
+            margin-bottom:156px;
+            margin-top:103px;
+            width:899px;
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px) {
+    header {
+        border-top-right-radius:19.5px;
+        border-top-left-radius:19.5px;
+        img {
+            height:auto;
+            margin-bottom:195px;
+            margin-top:128px;
+            width:1124px;
+        }
+    }
+}
+
+
+@media (min-width:3751px) {
+    header {
+        border-top-right-radius:24.3px;
+        border-top-left-radius:24.3px;
+        img {
+            height:auto;
+            margin-bottom:243px;
+            margin-top:160px;
+            width:1405px;
+        }
+    }
+}
